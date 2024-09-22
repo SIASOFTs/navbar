@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIASOFT Navbar</title>
+
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <button
+        onclick="document.body.classList.toggle('open')"
+        class="burger"
+      ></button>
+
+      <div class="logo-brand">
+        <img src="logo/logo.png" alt="" />
+      </div>
+      <div class="dropdowns">
+        <div class="dropdown">
+          <button>
+            Services
+            <img src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <button>UX/UI Design</button>
+            <button>Web Development</button>
+            <button>SEO Advice</button>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button>
+            Products
+            <img src="chevron.svg" />
+          </button>
+          <div class="dropdown-menu">
+            <button>html and css training</button>
+            <button>JavaScript training</button>
+            <button>React js training</button>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button>
+            Support
+            <img src="chevron.svg" />  
+          </button>
+          <div class="dropdown-menu">
+            <button>Expert Advice</button>
+            <button>SEO Advice</button>
+            <button>
+              WhatsApp No <br /><span style="font-size: 12px"
+                >+989372049254</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
